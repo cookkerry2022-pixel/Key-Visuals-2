@@ -1,0 +1,54 @@
+Last login: Thu May 21 21:17:10 on ttys000
+kerrycook@Kerrys-MacBook-Pro ~ % npm run dev
+npm error code ENOENT
+npm error syscall open
+npm error path /Users/kerrycook/package.json
+npm error errno -2
+npm error enoent Could not read package.json: Error: ENOENT: no such file or directory, open '/Users/kerrycook/package.json'
+npm error enoent This is related to npm not being able to find a file.
+npm error enoent
+npm error A complete log of this run can be found in: /Users/kerrycook/.npm/_logs/2026-05-22T03_26_08_364Z-debug-0.log
+kerrycook@Kerrys-MacBook-Pro ~ % cd key-visuals-site
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run dev
+
+> key-visuals-site@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.129.49.75:3000
+✓ Ready in 262ms
+Attention: Next.js now collects completely anonymous telemetry regarding usage.
+This information is used to shape Next.js' roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://nextjs.org/telemetry
+
+
+ GET / 200 in 1712ms (next.js: 1630ms, application-code: 83ms)
+[browser] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+npm run dev
+cd key-visuals-site
+npm run dev
+ GET / 200 in 46ms (next.js: 8ms, application-code: 37ms)
+[browser] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+ GET / 200 in 39ms (next.js: 5ms, application-code: 34ms)
+[browser] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+^C
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run dev
+
+> key-visuals-site@0.1.0 dev
+> next dev
+
+▲ Next.js 16.2.6 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://10.129.49.75:3000
+✓ Ready in 268ms
+
+ GET / 200 in 171ms (next.js: 85ms, application-code: 86ms)
+ GET / 200 in 47ms (next.js: 6ms, application-code: 41ms)
+[browser] Image with src "http://localhost:3000/vercel.svg" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+git init
+git add .
+git commit -m "Launch Key Visuals landing page"
+

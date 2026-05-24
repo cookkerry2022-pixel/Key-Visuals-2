@@ -1,0 +1,668 @@
+Last login: Sat May 23 12:16:38 on console
+kerrycook@Kerrys-MacBook-Pro ~ % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1131ms
+✓ Finished TypeScript in 1012ms    
+✓ Collecting page data using 6 workers in 175ms    
+✓ Generating static pages using 6 workers (4/4) in 240ms
+✓ Collecting build traces in 2.2s    
+✓ Finalizing page optimization in 2.2s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 83ms
+cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1056ms
+✓ Finished TypeScript in 947ms    
+✓ Collecting page data using 6 workers in 169ms    
+✓ Generating static pages using 6 workers (4/4) in 236ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 77ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1046ms
+✓ Finished TypeScript in 936ms    
+✓ Collecting page data using 6 workers in 165ms    
+✓ Generating static pages using 6 workers (4/4) in 245ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 77ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1034ms
+✓ Finished TypeScript in 938ms    
+✓ Collecting page data using 6 workers in 167ms    
+✓ Generating static pages using 6 workers (4/4) in 226ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 78ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1073ms
+✓ Finished TypeScript in 1023ms    
+✓ Collecting page data using 7 workers in 195ms    
+✓ Generating static pages using 7 workers (4/4) in 234ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 85ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % 
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1050ms
+✓ Finished TypeScript in 997ms    
+✓ Collecting page data using 7 workers in 184ms    
+✓ Generating static pages using 7 workers (4/4) in 242ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 82ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % 
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1071ms
+✓ Finished TypeScript in 1008ms    
+✓ Collecting page data using 7 workers in 197ms    
+✓ Generating static pages using 7 workers (4/4) in 249ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 85ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1056ms
+✓ Finished TypeScript in 1014ms    
+✓ Collecting page data using 7 workers in 185ms    
+✓ Generating static pages using 7 workers (4/4) in 241ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 85ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % 
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1056ms
+✓ Finished TypeScript in 945ms    
+✓ Collecting page data using 7 workers in 181ms    
+✓ Generating static pages using 7 workers (4/4) in 246ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 85ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1053ms
+✓ Finished TypeScript in 947ms    
+✓ Collecting page data using 7 workers in 190ms    
+✓ Generating static pages using 7 workers (4/4) in 254ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 82ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run build                  
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1059ms
+✓ Finished TypeScript in 1001ms    
+✓ Collecting page data using 7 workers in 186ms    
+✓ Generating static pages using 7 workers (4/4) in 261ms
+✓ Collecting build traces in 2.2s    
+✓ Finalizing page optimization in 2.2s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 83ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1049ms
+✓ Finished TypeScript in 1008ms    
+✓ Collecting page data using 7 workers in 185ms    
+✓ Generating static pages using 7 workers (4/4) in 242ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 83ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1064ms
+✓ Finished TypeScript in 1036ms    
+✓ Collecting page data using 7 workers in 196ms    
+✓ Generating static pages using 7 workers (4/4) in 220ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 86ms
+cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+git status
+git add .
+git commit -m "Build Key Visuals landing page"
+git push
+cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm install
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+  [Restored May 23, 2026 at 8:04:29 PM]
+Last login: Sat May 23 13:40:12 on ttys000
+Restored session: Sat May 23 19:13:24 CDT 2026
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm install
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+up to date, audited 360 packages in 1s
+
+143 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1065ms
+✓ Finished TypeScript in 1025ms    
+✓ Collecting page data using 7 workers in 191ms    
+✓ Generating static pages using 7 workers (4/4) in 246ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 83ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm install
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+up to date, audited 360 packages in 620ms
+
+143 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1047ms
+✓ Finished TypeScript in 951ms    
+✓ Collecting page data using 7 workers in 190ms    
+✓ Generating static pages using 7 workers (4/4) in 239ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 77ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm install
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+up to date, audited 360 packages in 735ms
+
+143 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1038ms
+✓ Finished TypeScript in 955ms    
+✓ Collecting page data using 7 workers in 176ms    
+✓ Generating static pages using 7 workers (4/4) in 250ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 80ms
+kerrycook@Kerrys-MacBook-Pro key-visuals-site % cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+npm install
+npm run build
+npm run start -- -H 127.0.0.1 -p 3025
+
+up to date, audited 360 packages in 627ms
+
+143 packages are looking for funding
+  run `npm fund` for details
+
+2 moderate severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> key-visuals-site@0.1.0 build
+> next build --webpack
+
+▲ Next.js 16.2.6 (webpack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1053ms
+✓ Finished TypeScript in 988ms    
+✓ Collecting page data using 7 workers in 173ms    
+✓ Generating static pages using 7 workers (4/4) in 246ms
+✓ Collecting build traces in 2.3s    
+✓ Finalizing page optimization in 2.3s    
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /videos/[file]
+└ ƒ /videos/LOOPS/[file]
+
+
+○  (Static)   prerendered as static content
+ƒ  (Dynamic)  server-rendered on demand
+
+
+> key-visuals-site@0.1.0 start
+> next start -H 127.0.0.1 -p 3025
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3025
+- Network:       http://127.0.0.1:3025
+✓ Ready in 84ms
+cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+git status
+git add .
+git commit -m "Launch Key Visuals landing page"
+git branch -M main
+git remote add origin YOUR_GITHUB_REPO_URL
+git push -u origin main
+cd /Users/kerrycook/Documents/Codex/2026-05-21/npx-create-next-app-latest-key/key-visuals-site
+git init
+git add .
+git commit -m "Launch Key Visuals landing page"
+
