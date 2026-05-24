@@ -7,7 +7,7 @@ import { Aperture, ArrowRight, CalendarCheck, Play } from "lucide-react";
 
 const bookingHref = "https://calendly.com/keyvisualsdfw";
 const logoSrc = "/Logos/Key Visuals Logo.jpg";
-const salesVideoSrc = "/videos/Advertisement%202.mp4";
+const salesVideoSrc = "/Videos/Advertisement%202.mp4";
 
 const fadeUp = {
   hidden: { opacity: 0, y: 16 },
@@ -36,19 +36,19 @@ const portfolio = [
     title: "Fight Week Energy",
     category: "Athlete x Brand Campaign",
     metric: "77.1K views",
-    videoSrc: "/videos/LOOPS/AB REEL LOOP.mp4",
+    videoSrc: "/Videos/LOOPS/AB REEL LOOP.mp4",
   },
   {
     title: "Lineman Performance Coach",
     category: "Fitness brand",
     metric: "20% booking lift",
-    videoSrc: "/videos/LOOPS/DHAWK REEL LOOP.mp4",
+    videoSrc: "/Videos/LOOPS/DHAWK REEL LOOP.mp4",
   },
   {
     title: "Spring Collection",
     category: "Clothing brand",
     metric: "12 short form assets",
-    videoSrc: "/videos/LOOPS/LA Volonte Loop.mp4",
+    videoSrc: "/Videos/LOOPS/LA Volonte Loop.mp4",
   },
 ];
 
