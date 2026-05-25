@@ -24,11 +24,11 @@ const stagger = {
 };
 
 const proofItems = [
-  "Selected work for athletes, fitness brands, and lifestyle campaigns",
-  "Campaign-ready reels",
+  "Athletes + fitness brands",
+  "Campaign reels",
   "Launch cutdowns",
-  "Social-first video assets",
-  "Brand storytelling",
+  "Social assets",
+  "Brand stories",
 ];
 
 const portfolio = [
@@ -55,18 +55,18 @@ const portfolio = [
 const contentSystem = [
   {
     title: "Strategy",
-    body: "Position the campaign, identify the strongest content angle, and plan the assets around the business outcome.",
-    items: ["Offer and audience mapping", "Creative direction", "Shot list and story beats"],
+    body: "Campaign angle, audience, offer, and shot plan.",
+    items: ["Audience mapping", "Creative direction", "Shot list"],
   },
   {
     title: "Production",
-    body: "Capture cinematic footage with the pace, texture, and proof points needed for social-first campaigns.",
-    items: ["Athlete and brand shoots", "Launch films", "Reels and campaign cutdowns"],
+    body: "Cinematic assets built for social campaigns.",
+    items: ["Brand shoots", "Launch films", "Reels"],
   },
   {
     title: "Distribution",
-    body: "Deliver content as a repeatable system with edits built for attention, trust, and action.",
-    items: ["Posting direction", "Asset sequencing", "Performance review"],
+    body: "Edits sequenced for attention, trust, and action.",
+    items: ["Posting direction", "Asset sequencing", "Review"],
   },
 ];
 
@@ -74,22 +74,22 @@ const process = [
   {
     step: "01",
     title: "Build the content angle",
-    body: "Define the story, offer, audience, and proof points before production starts.",
+    body: "Story, offer, audience, proof.",
   },
   {
     step: "02",
     title: "Capture cinematic assets",
-    body: "Shoot the moments that create authority, emotion, identity, and replay value.",
+    body: "Authority, emotion, identity.",
   },
   {
     step: "03",
     title: "Cut for attention and conversion",
-    body: "Edit for hooks, rhythm, retention, credibility, and clear next action.",
+    body: "Hooks, rhythm, retention, action.",
   },
   {
     step: "04",
     title: "Review performance and refine",
-    body: "Use the response to sharpen the next batch of content and improve the system.",
+    body: "Review response. Sharpen the next batch.",
   },
 ];
 
@@ -191,7 +191,7 @@ function VideoFrame({
     >
       <video
         src={videoSrc}
-        className="absolute inset-0 h-full w-full object-cover grayscale transition duration-700 ease-out group-hover:scale-105 group-hover:grayscale-0 group-hover:contrast-125"
+        className="absolute inset-0 h-full w-full object-cover transition duration-700 ease-out group-hover:scale-105 group-hover:contrast-125 lg:grayscale lg:group-hover:grayscale-0"
         autoPlay
         loop
         muted
@@ -199,7 +199,7 @@ function VideoFrame({
         preload="metadata"
         aria-label={`${title} portfolio video`}
       />
-      <div className="absolute inset-0 bg-black/28 transition duration-500 group-hover:bg-black/18" />
+      <div className="absolute inset-0 bg-black/18 transition duration-500 group-hover:bg-black/12 lg:bg-black/28 lg:group-hover:bg-black/18" />
       <div className="absolute inset-0 bg-[linear-gradient(to_bottom,rgba(0,0,0,.72),transparent_26%,rgba(0,0,0,.78)_88%)]" />
       <FrameCorners subtle />
       <div className="absolute bottom-0 left-0 right-0 p-6 sm:p-8">
@@ -307,9 +307,8 @@ export default function Home() {
               transition={{ duration: 0.5, ease: "easeOut" }}
               className="mt-5 max-w-2xl border-l border-white/35 pl-5 text-base leading-7 text-white/70 sm:mt-6 sm:text-xl sm:leading-8"
             >
-              Key Visuals builds cinematic content systems for athletes,
-              fitness brands, and lifestyle teams that need more qualified
-              attention, stronger trust, and brand identity.
+              Cinematic content systems for athletes, fitness brands, and
+              lifestyle teams built to create trust, demand, and action.
             </motion.p>
             <motion.div
               variants={fadeUp}
@@ -354,8 +353,7 @@ export default function Home() {
               </h2>
             </div>
             <p className="max-w-2xl text-lg leading-8 text-white/58 lg:justify-self-end">
-              Short-form systems built like documentary sequences: hook first,
-              tension next, proof always.
+              Documentary energy. Social-first edits. Clear intent.
             </p>
           </div>
           <div className="grid gap-5 lg:grid-cols-3">
@@ -364,10 +362,6 @@ export default function Home() {
             ))}
           </div>
           <div className="mt-8 border border-white/15 p-5 sm:hidden">
-            <p className="mb-4 text-sm leading-6 text-white/58">
-              The work should lead somewhere. Start with a sharper content
-              system built around trust, demand, and action.
-            </p>
             <PrimaryCTA className="w-full">Book a call</PrimaryCTA>
           </div>
         </div>
@@ -384,12 +378,8 @@ export default function Home() {
           <motion.div variants={fadeUp} className="max-w-4xl">
             <SectionLabel number="02">Content System</SectionLabel>
             <h2 className="text-5xl font-black uppercase leading-[0.88] tracking-[-0.04em] sm:text-7xl">
-              Strategy, production, and distribution under one direction.
+              Strategy. Production. Distribution.
             </h2>
-            <p className="mt-6 max-w-2xl text-lg leading-8 text-white/58">
-              The offer is not just a shoot. It is a repeatable system for
-              turning brand identity into campaign-ready video assets.
-            </p>
           </motion.div>
           <div className="mt-10 grid gap-px bg-white/15 lg:grid-cols-3">
             {contentSystem.map((service, index) => (
@@ -476,10 +466,8 @@ export default function Home() {
           <blockquote className="border-l border-white/25 pl-6 text-2xl font-black uppercase leading-[1.08] tracking-[-0.03em] text-white sm:text-4xl">
             “We’ve worked with Kerry for over six months to elevate the look and
             performance of our fitness and athletic club’s social media. His
-            creativity, professionalism, and ability to bring ideas to life have
-            had a major impact on our brand presence, engagement, and overall
-            growth online. He consistently exceeds expectations and is also
-            incredibly easy and enjoyable to work with. We’re excited to
+            ability to bring ideas to life has had a major impact on our brand
+            presence, engagement, and overall growth online. We’re excited to
             continue working together and highly recommend him to anyone looking
             to elevate their brand through content and videography.”
             <footer className="mt-7 text-sm font-bold normal-case leading-6 tracking-normal text-white/45">
@@ -503,8 +491,7 @@ export default function Home() {
                 Your content should do more than look good.
               </h2>
               <p className="mt-6 max-w-2xl text-lg leading-8 text-black/68">
-                It should create trust, demand, and action. Key Visuals builds
-                the content system that makes the next call easier to book.
+                Create trust, demand, and action.
               </p>
             </div>
             <a
