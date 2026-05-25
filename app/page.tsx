@@ -140,22 +140,6 @@ function SecondaryCTA({ children, href }: { children: React.ReactNode; href: str
   );
 }
 
-function SectionLabel({
-  number,
-  children,
-}: {
-  number: string;
-  children: React.ReactNode;
-}) {
-  return (
-    <p className="mb-5 flex items-center gap-3 text-[11px] font-black uppercase tracking-[0.26em] text-white/55">
-      <span className="text-white/35">{number}</span>
-      <span className="h-px w-8 bg-white/35" />
-      {children}
-    </p>
-  );
-}
-
 function FrameCorners({ subtle = false }: { subtle?: boolean }) {
   const color = subtle ? "border-white/35" : "border-white/55";
 
@@ -257,6 +241,44 @@ function SalesHeroVideo() {
   );
 }
 
+function AccordionItem({
+  id,
+  number,
+  label,
+  title,
+  children,
+}: {
+  id: string;
+  number: string;
+  label: string;
+  title: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <details id={id} className="group border-b border-white/12 last:border-b-0">
+      <summary className="grid cursor-pointer list-none gap-3 px-5 py-5 transition hover:bg-white/5 focus:outline-none focus-visible:ring-2 focus-visible:ring-white sm:gap-5 sm:px-8 sm:py-7 lg:grid-cols-[0.22fr_1fr_auto] lg:items-center lg:px-10 [&::-webkit-details-marker]:hidden">
+        <div className="flex items-center gap-3 text-[11px] font-black uppercase tracking-[0.24em] text-white/50">
+          <span className="text-white/35">{number}</span>
+          <span className="h-px w-8 bg-white/30" />
+          {label}
+        </div>
+        <h2 className="text-2xl font-black uppercase leading-[0.9] tracking-[-0.04em] text-white sm:text-6xl">
+          {title}
+        </h2>
+        <span className="flex h-11 w-11 shrink-0 items-center justify-center border border-white/25 text-white transition group-open:bg-white group-open:text-black">
+          <Play
+            aria-hidden="true"
+            size={17}
+            fill="currentColor"
+            className="ml-0.5 transition group-open:rotate-90"
+          />
+        </span>
+      </summary>
+      <div className="px-5 pb-8 sm:px-8 lg:px-10">{children}</div>
+    </details>
+  );
+}
+
 export default function Home() {
   return (
     <main className="min-h-screen overflow-hidden bg-black text-white">
@@ -343,138 +365,103 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="portfolio" className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12">
-        <div className="mx-auto max-w-7xl">
-          <div className="mb-8 grid gap-6 lg:grid-cols-[0.74fr_1fr] lg:items-end">
-            <div>
-              <SectionLabel number="01">Portfolio</SectionLabel>
-              <h2 className="text-5xl font-black uppercase leading-[0.88] tracking-[-0.04em] sm:text-7xl">
-                Cinematic frames. Measurable intent.
-              </h2>
-            </div>
-            <p className="max-w-2xl text-lg leading-8 text-white/58 lg:justify-self-end">
+      <section className="border-y border-white/10 bg-[#050505] px-0 py-6 sm:py-10">
+        <div className="mx-auto max-w-7xl border-y border-white/12">
+          <AccordionItem
+            id="portfolio"
+            number="01"
+            label="Portfolio"
+            title="Cinematic frames. Measurable intent."
+          >
+            <p className="mb-6 max-w-2xl text-base leading-7 text-white/58">
               Documentary energy. Social-first edits. Clear intent.
             </p>
-          </div>
-          <div className="grid gap-5 lg:grid-cols-3">
-            {portfolio.map((item) => (
-              <VideoFrame key={item.title} {...item} />
-            ))}
-          </div>
-          <div className="mt-8 border border-white/15 p-5 sm:hidden">
-            <PrimaryCTA className="w-full">Book a call</PrimaryCTA>
-          </div>
+            <div className="grid gap-5 lg:grid-cols-3">
+              {portfolio.map((item) => (
+                <VideoFrame key={item.title} {...item} />
+              ))}
+            </div>
+            <div className="mt-6 border border-white/15 p-5 sm:hidden">
+              <PrimaryCTA className="w-full">Book a call</PrimaryCTA>
+            </div>
+          </AccordionItem>
+
+          <AccordionItem
+            id="content-system"
+            number="02"
+            label="Content System"
+            title="Strategy. Production. Distribution."
+          >
+            <div className="grid gap-px bg-white/15 lg:grid-cols-3">
+              {contentSystem.map((service, index) => (
+                <article key={service.title} className="bg-black p-6 sm:p-7">
+                  <p className="text-sm font-black text-white/35">
+                    {String(index + 1).padStart(2, "0")}
+                  </p>
+                  <h3 className="mt-8 text-3xl font-black uppercase leading-none tracking-tight text-white">
+                    {service.title}
+                  </h3>
+                  <p className="mt-5 leading-7 text-white/58">{service.body}</p>
+                  <div className="mt-7 grid gap-3">
+                    {service.items.map((item) => (
+                      <div
+                        key={item}
+                        className="border-t border-white/15 pt-3 text-sm font-bold text-white/72"
+                      >
+                        {item}
+                      </div>
+                    ))}
+                  </div>
+                </article>
+              ))}
+            </div>
+          </AccordionItem>
+
+          <AccordionItem
+            id="process"
+            number="03"
+            label="Process"
+            title="Precision before production."
+          >
+            <div className="grid gap-px bg-white/15 md:grid-cols-2 xl:grid-cols-4">
+              {process.map((item) => (
+                <article
+                  key={item.step}
+                  className="relative min-h-[190px] bg-black p-6 sm:min-h-[230px]"
+                >
+                  <FrameCorners subtle />
+                  <p className="text-sm font-black uppercase tracking-[0.22em] text-white/42">
+                    {item.step}
+                  </p>
+                  <h3 className="mt-10 text-2xl font-black uppercase leading-none tracking-tight text-white sm:mt-14">
+                    {item.title}
+                  </h3>
+                  <p className="mt-4 leading-7 text-white/55">{item.body}</p>
+                </article>
+              ))}
+            </div>
+          </AccordionItem>
+
+          <AccordionItem
+            id="proof"
+            number="04"
+            label="Proof"
+            title="Built for trust and momentum."
+          >
+            <blockquote className="border-l border-white/25 pl-6 text-2xl font-black uppercase leading-[1.08] tracking-[-0.03em] text-white sm:text-4xl">
+              “We’ve worked with Kerry for over six months to elevate the look
+              and performance of our fitness and athletic club’s social media.
+              His ability to bring ideas to life has had a major impact on our
+              brand presence, engagement, and overall growth online. We’re
+              excited to continue working together and highly recommend him to
+              anyone looking to elevate their brand through content and
+              videography.”
+              <footer className="mt-7 text-sm font-bold normal-case leading-6 tracking-normal text-white/45">
+                Gillian Haworth, Lifetime Fitness
+              </footer>
+            </blockquote>
+          </AccordionItem>
         </div>
-      </section>
-
-      <section className="border-y border-white/10 bg-[#050505] px-5 py-16 sm:px-8 sm:py-20 lg:px-12">
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
-          variants={stagger}
-          className="mx-auto max-w-7xl"
-        >
-          <motion.div variants={fadeUp} className="max-w-4xl">
-            <SectionLabel number="02">Content System</SectionLabel>
-            <h2 className="text-5xl font-black uppercase leading-[0.88] tracking-[-0.04em] sm:text-7xl">
-              Strategy. Production. Distribution.
-            </h2>
-          </motion.div>
-          <div className="mt-10 grid gap-px bg-white/15 lg:grid-cols-3">
-            {contentSystem.map((service, index) => (
-              <motion.article
-                variants={fadeUp}
-                transition={{ duration: 0.45, ease: "easeOut" }}
-                key={service.title}
-                className="bg-black p-6 sm:p-7"
-              >
-                <p className="text-sm font-black text-white/35">
-                  {String(index + 1).padStart(2, "0")}
-                </p>
-                <h3 className="mt-8 text-3xl font-black uppercase leading-none tracking-tight text-white">
-                  {service.title}
-                </h3>
-                <p className="mt-5 leading-7 text-white/58">{service.body}</p>
-                <div className="mt-7 grid gap-3">
-                  {service.items.map((item) => (
-                    <div
-                      key={item}
-                      className="border-t border-white/15 pt-3 text-sm font-bold text-white/72"
-                    >
-                      {item}
-                    </div>
-                  ))}
-                </div>
-              </motion.article>
-            ))}
-          </div>
-        </motion.div>
-      </section>
-
-      <section className="px-5 py-16 sm:px-8 sm:py-20 lg:px-12">
-        <motion.div
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.25 }}
-          variants={stagger}
-          className="mx-auto max-w-7xl"
-        >
-          <motion.div variants={fadeUp} className="max-w-4xl">
-            <SectionLabel number="03">Process</SectionLabel>
-            <h2 className="text-5xl font-black uppercase leading-[0.88] tracking-[-0.04em] sm:text-7xl">
-              Precision before production.
-            </h2>
-          </motion.div>
-          <div className="mt-10 grid gap-px bg-white/15 md:grid-cols-2 xl:grid-cols-4">
-            {process.map((item) => (
-              <motion.article
-                variants={fadeUp}
-                transition={{ duration: 0.45, ease: "easeOut" }}
-                key={item.step}
-                className="relative min-h-[230px] bg-black p-6 sm:min-h-[270px]"
-              >
-                <FrameCorners subtle />
-                <p className="text-sm font-black uppercase tracking-[0.22em] text-white/42">
-                  {item.step}
-                </p>
-                <h3 className="mt-12 text-2xl font-black uppercase leading-none tracking-tight text-white sm:mt-16">
-                  {item.title}
-                </h3>
-                <p className="mt-4 leading-7 text-white/55">{item.body}</p>
-              </motion.article>
-            ))}
-          </div>
-        </motion.div>
-      </section>
-
-      <section className="border-y border-white/10 bg-[#050505] px-5 py-16 sm:px-8 sm:py-20 lg:px-12">
-        <motion.div
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, amount: 0.3 }}
-          transition={{ duration: 0.5, ease: "easeOut" }}
-          className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[0.55fr_1fr] lg:items-center"
-        >
-          <div>
-            <SectionLabel number="04">Proof</SectionLabel>
-            <p className="text-lg leading-8 text-white/55">
-              Built for campaigns where the content has to carry identity,
-              trust, and momentum.
-            </p>
-          </div>
-          <blockquote className="border-l border-white/25 pl-6 text-2xl font-black uppercase leading-[1.08] tracking-[-0.03em] text-white sm:text-4xl">
-            “We’ve worked with Kerry for over six months to elevate the look and
-            performance of our fitness and athletic club’s social media. His
-            ability to bring ideas to life has had a major impact on our brand
-            presence, engagement, and overall growth online. We’re excited to
-            continue working together and highly recommend him to anyone looking
-            to elevate their brand through content and videography.”
-            <footer className="mt-7 text-sm font-bold normal-case leading-6 tracking-normal text-white/45">
-              Gillian Haworth, Lifetime Fitness
-            </footer>
-          </blockquote>
-        </motion.div>
       </section>
 
       <section className="px-5 py-8 sm:px-8 lg:px-12">
